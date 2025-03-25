@@ -12,4 +12,4 @@ def metrics(request):
         post_request_counter.inc()
 
     return HttpResponse(generate_latest(), content_type='text/plain; version=0.0.4')
-    
+        
